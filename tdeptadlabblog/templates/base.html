@@ -7,7 +7,22 @@
     <link rel="stylesheet" href="{% static 'styles/base.css' %}">
 </head>
 <body>
-<h1>Trevor DePew Blog</h1>
+    <header>
+        <div class="container">
+            <div class="name">
+                <h1>Trevor DePew</h1>
+            </div>
+            <div class="title">
+                <h1>Blog</h1>
+            </div>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/trevor-depew/" class="link-social" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/tdep" class="link-social" target="_blank">LinkedIn</a></li>
+                <li><a href="https://tadepewmusic.com/" class="link-social" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+    </header>
+
 <a href="{% url "blog_index" %}">Home</a>
 <hr>
 {% block page_title %}{% endblock page_title %}
