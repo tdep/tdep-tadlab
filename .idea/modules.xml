@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/tdep-tadlab-blog.iml" filepath="$PROJECT_DIR$/tdep-tadlab-blog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdep-tadlab-core.iml" filepath="$PROJECT_DIR$/tdep-tadlab-core.iml" />
     </modules>
   </component>
 </project>
