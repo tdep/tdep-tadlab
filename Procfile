@@ -1,1 +1,1 @@
-web: gunicorn tdeptadlabcore.core.wsgi
+web: gunicorn core.wsgi
